@@ -42,16 +42,16 @@ function getUserInput() {
   }
 
   var specialCharChoice = confirm(
-    "Would you like to use special characters? Click OK for yes or Cancel for no."
+    "Would you like to use special characters? Yes or no"
   );
   var lowerCaseChoice = confirm(
-    "Would you like to use lower case letters? Click OK for yes or Cancel for no."
+    "Would you like to use lower case letters? Yes or no"
   );
   var upperCaseChoice = confirm(
-    "Would you like to use upper case letters? Click OK for yes or Cancel for no."
+    "Would you like to use upper case letters? Yes or no"
   );
   var numArrayChoice = confirm(
-    "Would you like to use numbers? Click OK for yes or Cancel for no."
+    "Would you like to use numbers? Yes or no?"
   );
 
   if (
